@@ -20,8 +20,8 @@ SECURITY OBJECTIVES
 - 24/7 uptime!
 
 Non-Repudiation (sign a contract, this adds non-repudiation)
-HASH
-- Proof of integrity (data remains same)
+
+- Hash // Proof of integrity (data remains same)
     - In cryptography, we use hash (fingerprint)
     - If the data changes, the hash changes! ANY change in the data
 
@@ -29,7 +29,11 @@ Authentication (private/public keys)
   - Proof of the source of the data
   - Doesn't need to be encrypted as nobody else can sign this. Private key for signing is owned by the signer. And verify by using the public key.
 
-
+AAA Framework
+- Identification (you claim to be x)
+- Authentication (you can prove you are x)
+- Authorization (based on the ID and Auth, what does x have access to?)
+- Accounting (login time, data sent/received, logout time)
 
 
 
