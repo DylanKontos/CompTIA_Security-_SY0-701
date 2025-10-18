@@ -1,0 +1,36 @@
+CIA TRIAD - Fundamentals of security (Sometimes referenced as the AIC Triad)
+
+SECURITY OBJECTIVES 
+
+1. Confidentiality - Prevent data leaks (disclosure of information to unauthorized individuals or systems)
+- Data is encrypted
+- Authorized users can decrypt data (access controls)
+- 2FA
+
+2. Integrity - Messages cant be modified without detection
+- Hashing / verify data using (has it been modified while it was traversing the network) (sender and receiver have matching hash)
+- Digital signatures (similar to hashing)
+- Certificates
+- Non-repudiation (proof of integrity)
+
+3. Availability (uptime) - Systems and networks are up and running (even with security layers)
+- Redundancy
+- Fault tolerance
+- Patching
+- 24/7 uptime!
+
+Non-Repudiation (sign a contract, this adds non-repudiation)
+HASH
+- Proof of integrity (data remains same)
+    - In cryptography, we use hash (fingerprint)
+    - If the data changes, the hash changes! ANY change in the data
+
+Authentication (private/public keys)
+  - Proof of the source of the data
+  - Doesn't need to be encrypted as nobody else can sign this. Private key for signing is owned by the signer. And verify by using the public key.
+
+
+
+
+
+        
